@@ -1,0 +1,63 @@
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.1
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000002969097EF70>
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with T1 as a reference
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'T1'
+Located on: ['OCXO', 'Output Driver 1']
+With filenames: ['ocxo.kicad_sch', 'output_driver.kicad_sch']
+With sheet_id:['OCXO', 'Output Driver 1']
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('T3', ['OCXO', 'Output Driver 3']), ('T2', ['OCXO', 'Output Driver 2']), ('T1', ['OCXO', 'Output Driver 1'])]
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Output Driver 1', file:'output_driver.kicad_sch'
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['OCXO', 'Output Driver 2'], ['OCXO', 'Output Driver 3']]
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['OCXO', 'Output Driver 1']
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1699, 125)
+11-04 00:56:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1260, 125)
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'Output Driver 1', file:'output_driver.kicad_sch'
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['OCXO', 'Output Driver 2'], ['OCXO', 'Output Driver 3']]
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['OCXO', 'Output Driver 2'], ['OCXO', 'Output Driver 3']]
+on level: ['OCXO', 'Output Driver 1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+11-04 00:56:05 root 332:updating GUI message: 'Preparing for replication'
+11-04 00:56:05 root 337:updating GUI with: 0
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+11-04 00:56:05 root 332:updating GUI message: 'Replicating footprints'
+11-04 00:56:05 root 337:updating GUI with: 0
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['OCXO', 'Output Driver 2']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['OCXO', 'Output Driver 3']
+11-04 00:56:05 root 332:updating GUI message: 'Replicating tracks'
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['OCXO', 'Output Driver 2']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['OCXO', 'Output Driver 2'] :[('Net-(FB4-Pad1)', 'Net-(FB5-Pad1)'), ('unconnected-(T1-SC-Pad2)', 'unconnected-(T2-SC-Pad2)'), ('Net-(J7-Ext)', 'Net-(J8-Ext)'), ('Net-(T1-AA)', 'Net-(T2-AA)'), ('', ''), ('/OCXO/Output Driver 1/INPUT', '/OCXO/Output Driver 1/INPUT'), ('Net-(C37-Pad1)', 'Net-(C49-Pad1)'), ('+3.3V', '+3.3V'), ('Net-(J7-In)', 'Net-(J8-In)'), ('Net-(R15-Pad1)', 'Net-(R13-Pad1)'), ('GND', 'GND'), ('Net-(C14-Pad2)', 'Net-(C47-Pad2)'), ('unconnected-(T1-SC-Pad5)', 'unconnected-(T2-SC-Pad5)')]
+11-04 00:56:05 root 337:updating GUI with: 0
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['OCXO', 'Output Driver 3']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['OCXO', 'Output Driver 3'] :[('Net-(J7-In)', 'Net-(J9-In)'), ('Net-(FB4-Pad1)', 'Net-(FB6-Pad1)'), ('Net-(J7-Ext)', 'Net-(J9-Ext)'), ('unconnected-(T1-SC-Pad2)', 'unconnected-(T3-SC-Pad2)'), ('', ''), ('/OCXO/Output Driver 1/INPUT', '/OCXO/Output Driver 1/INPUT'), ('unconnected-(T1-SC-Pad5)', 'unconnected-(T3-SC-Pad5)'), ('+3.3V', '+3.3V'), ('Net-(C37-Pad1)', 'Net-(C56-Pad1)'), ('GND', 'GND'), ('Net-(T1-AA)', 'Net-(T3-AA)'), ('Net-(R15-Pad1)', 'Net-(R16-Pad1)'), ('Net-(C14-Pad2)', 'Net-(C54-Pad2)')]
+11-04 00:56:05 root 332:updating GUI message: 'Replicating zones'
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['OCXO', 'Output Driver 2']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['OCXO', 'Output Driver 2'] :[('Net-(FB4-Pad1)', 'Net-(FB5-Pad1)'), ('unconnected-(T1-SC-Pad2)', 'unconnected-(T2-SC-Pad2)'), ('Net-(J7-Ext)', 'Net-(J8-Ext)'), ('Net-(T1-AA)', 'Net-(T2-AA)'), ('', ''), ('/OCXO/Output Driver 1/INPUT', '/OCXO/Output Driver 1/INPUT'), ('Net-(C37-Pad1)', 'Net-(C49-Pad1)'), ('+3.3V', '+3.3V'), ('Net-(J7-In)', 'Net-(J8-In)'), ('Net-(R15-Pad1)', 'Net-(R13-Pad1)'), ('GND', 'GND'), ('Net-(C14-Pad2)', 'Net-(C47-Pad2)'), ('unconnected-(T1-SC-Pad5)', 'unconnected-(T2-SC-Pad5)')]
+11-04 00:56:05 root 337:updating GUI with: 50
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['OCXO', 'Output Driver 3']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['OCXO', 'Output Driver 3'] :[('Net-(J7-In)', 'Net-(J9-In)'), ('Net-(FB4-Pad1)', 'Net-(FB6-Pad1)'), ('Net-(J7-Ext)', 'Net-(J9-Ext)'), ('unconnected-(T1-SC-Pad2)', 'unconnected-(T3-SC-Pad2)'), ('', ''), ('/OCXO/Output Driver 1/INPUT', '/OCXO/Output Driver 1/INPUT'), ('unconnected-(T1-SC-Pad5)', 'unconnected-(T3-SC-Pad5)'), ('+3.3V', '+3.3V'), ('Net-(C37-Pad1)', 'Net-(C56-Pad1)'), ('GND', 'GND'), ('Net-(T1-AA)', 'Net-(T3-AA)'), ('Net-(R15-Pad1)', 'Net-(R16-Pad1)'), ('Net-(C14-Pad2)', 'Net-(C54-Pad2)')]
+11-04 00:56:05 root 332:updating GUI message: 'Replicating text'
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['OCXO', 'Output Driver 2']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['OCXO', 'Output Driver 3']
+11-04 00:56:05 root 332:updating GUI message: 'Replicating drawings'
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['OCXO', 'Output Driver 2']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['OCXO', 'Output Driver 3']
+11-04 00:56:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

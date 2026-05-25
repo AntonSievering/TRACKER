@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c3b9f1ea-d4eb-43dd-bc59-07f5a944a22a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "prescaler: MC12093\n1+2: discrete jk flip flop 74VHC112 (onsemi) \n3-6: SN74LV393B-EP 4 bit counter\n3x: 8 bit counter 74HC590\n"
+    (at 121.285 109.22 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 850bab9c-0480-4bbe-b613-af4a02aca2cb)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,361 @@
+(footprint "QFN65P400X400X80-17N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "UF(QFN)_1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC5"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6c3514da-9ce5-4bbc-bfa7-5d873cadc2f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LT5546EUF#PBF"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "46e80848-8835-42e1-835b-5441c1f75dd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LT5546EUF#PBF.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "473c1d0a-e68d-49fe-b070-6a49f3547e27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "I/Q Demodulator,LT5546 40-500MHz QFN LT5546EUF#PBF, Demodulator Quadrature 17MHz 1.8  5.25 V 16-Pin QFN EP"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "865a47ce-7000-47dc-894e-7d46ed03a3ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd067f36-3e3c-428f-a9fe-2f0a0de4c59c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "584-LT5546EUF#PBF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99d50a7f-159e-4942-b8bd-4aec8a3fcf37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30231cba-d725-4621-8b99-84e9c91ee4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Analog Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a6fa4d7-b7c6-4470-9893-dbafdb9d256a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "LT5546EUF#PBF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "253cd624-3ea5-48fc-a3b3-de3cc3853033")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f015ee9-c07e-443f-84af-808de476c79d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.4005 -1.95)
+		(end -2.4005 -1.7875)
+		(stroke
+			(width 0.325)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7bc8c3ee-1b07-47e0-bcc2-370707fe8b82")
+	)
+	(fp_line
+		(start -2.65 -2.65)
+		(end 2.65 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ec47eb0-a447-48f7-a4d2-10c907ad81e5")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end -2.65 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3c4e252-af4b-4f18-800e-ffdb3bea6169")
+	)
+	(fp_line
+		(start 2.65 -2.65)
+		(end 2.65 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f83680e7-4e1a-4947-843b-be397a3fa43b")
+	)
+	(fp_line
+		(start 2.65 2.65)
+		(end -2.65 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce490b72-8a76-4299-b600-f10436078b52")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82d7b8d3-a6ca-40b1-99f4-bd178e8f9b48")
+	)
+	(fp_line
+		(start -2 -1.35)
+		(end -1.35 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa963cc0-c26d-487f-a6c2-f38ff0b85df0")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f21a0219-e4de-4995-865b-5b342b19ec14")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f40edf5f-9031-4c72-876f-62aa5ba3d301")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "634c0a62-7edd-4c65-8f79-1d45ec131bdc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "14d3e8f9-7d01-47e0-bff2-f005cd8361b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.85 -0.975 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "48de8cfd-71df-45d6-83d7-fe69a0c3f9d3")
+	)
+	(pad "2" smd rect
+		(at -1.85 -0.325 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea87b8b5-b540-4d56-9d8a-206599011398")
+	)
+	(pad "3" smd rect
+		(at -1.85 0.325 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "423b2fcd-ac43-43ec-8bac-1db08b00c34e")
+	)
+	(pad "4" smd rect
+		(at -1.85 0.975 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53aebe31-36e5-465b-aa5b-e7272c901a81")
+	)
+	(pad "5" smd rect
+		(at -0.975 1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3264666f-30d6-46ac-9377-b82b5a631cbe")
+	)
+	(pad "6" smd rect
+		(at -0.325 1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c038fb23-5879-461d-a1a1-3e13385700f6")
+	)
+	(pad "7" smd rect
+		(at 0.325 1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31ecbf38-2475-4e54-82f4-57201fa3652a")
+	)
+	(pad "8" smd rect
+		(at 0.975 1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05862595-743d-45de-97be-5643ac41b27e")
+	)
+	(pad "9" smd rect
+		(at 1.85 0.975 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60a4dab3-d27e-4407-a643-ca373d48cd24")
+	)
+	(pad "10" smd rect
+		(at 1.85 0.325 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcde63d1-72fd-4e9a-887b-89d5ac47adca")
+	)
+	(pad "11" smd rect
+		(at 1.85 -0.325 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7075645-700b-4dfe-97d7-7ecaef0d5b74")
+	)
+	(pad "12" smd rect
+		(at 1.85 -0.975 90)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3162e48-902f-4785-ba8b-d4581120d14c")
+	)
+	(pad "13" smd rect
+		(at 0.975 -1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8ef95ac-5c48-424d-b458-7a4a34ce159c")
+	)
+	(pad "14" smd rect
+		(at 0.325 -1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05e46465-c79c-4c08-bada-57aeaf72cbab")
+	)
+	(pad "15" smd rect
+		(at -0.325 -1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d360f77d-aae9-4eb4-ba80-39d4b20de25f")
+	)
+	(pad "16" smd rect
+		(at -0.975 -1.85)
+		(size 0.35 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79fb2691-e8b8-41f1-b6a0-1d3ce888ca5c")
+	)
+	(pad "17" smd rect
+		(at 0 0)
+		(size 2.25 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e52ea35e-fc65-4f12-a707-3519c6106901")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/anton/OneDrive/Dokumente/TRACKER/pcb-projects/Tracker_Kicad_Lib/3d/LT5546EUF#PBF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

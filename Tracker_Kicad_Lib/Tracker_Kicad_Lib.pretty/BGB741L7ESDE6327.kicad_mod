@@ -1,0 +1,214 @@
+(footprint "BGB741L7ESDE6327"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BGB 741L7ESD E6327-3")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 6 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "43715eeb-334c-421f-9d45-efac21ac055c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BGB741L7ESDE6327"
+		(at 0.025 -0.225 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d4476a29-7a97-4769-86f0-d9d132ff3b38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcbe9da6-0ef3-437d-884e-d3df7a4c27fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaa52c5d-62ed-4f2b-9280-b04a1095108f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.6 -1.4)
+		(end 0.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d5d8d90-adb4-4276-ad99-659c120d1c09")
+	)
+	(fp_line
+		(start 0.7 -1.4)
+		(end 0.7 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92879d18-3fc0-4cc5-b672-1929da3a195b")
+	)
+	(fp_arc
+		(start 0.6 -1.4)
+		(mid 0.65 -1.45)
+		(end 0.7 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "693fec56-87d0-41e7-a4a6-c7c985a826c4")
+	)
+	(fp_arc
+		(start 0.7 -1.4)
+		(mid 0.65 -1.35)
+		(end 0.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64e01033-cade-49f2-b528-540545854946")
+	)
+	(fp_rect
+		(start -1 -1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d35799dc-eb89-4618-b308-6f5aacbce716")
+	)
+	(fp_line
+		(start -0.65 -1)
+		(end -0.65 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3893c72-53ff-4e17-af72-c1f2dd2a5619")
+	)
+	(fp_line
+		(start -0.65 1)
+		(end 0.65 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a66e2a77-da66-4f7a-9251-28375998b179")
+	)
+	(fp_line
+		(start 0.65 -1)
+		(end -0.65 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3da9f161-e5fb-45a8-9eaa-939d01010b6f")
+	)
+	(fp_line
+		(start 0.65 1)
+		(end 0.65 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41192e04-a3fc-4c36-8a68-a631d8bed176")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 -5 0)
+		(layer "F.Fab")
+		(uuid "ab138926-a988-42ac-b181-47ce03775afc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.5 -0.85)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ae0a7417-fa96-487b-9613-fb8b1cfa0678")
+	)
+	(pad "2" smd rect
+		(at 0 -0.85)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "435164c8-3f67-430c-8fcf-edcd60f3c83e")
+	)
+	(pad "3" smd rect
+		(at -0.5 -0.85)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6fd06360-c827-40a5-9404-c6e92fd5b6f7")
+	)
+	(pad "4" smd rect
+		(at -0.5 0.85)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "823d300b-f1e7-43fb-b99f-ea0061ef6fd6")
+	)
+	(pad "5" smd rect
+		(at 0 0.85)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69d33439-c960-4b51-8acc-f3ad273781f8")
+	)
+	(pad "6" smd rect
+		(at 0.5 0.85)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b43ba9e6-fd89-4c29-a5d6-c06b77e257b7")
+	)
+	(pad "7" smd rect
+		(at 0 0 180)
+		(size 1.1 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "659d0c3e-7887-4b02-a0aa-2537dd99fd61")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/anton/OneDrive/Dokumente/TRACKER/pcb-projects/Tracker_Kicad_Lib/3d/BGB_741L7ESD_E6327.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

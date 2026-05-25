@@ -1,0 +1,5 @@
+Notizen für baseband-rx rev B
+- 10mR Shunts im Power supply für debug, 0R in production
+- Baseband balun neu machen
+- IF amp 0,35V fix
+- Preselection filter Konzept überdenken, eventuell mehr gain im rf path

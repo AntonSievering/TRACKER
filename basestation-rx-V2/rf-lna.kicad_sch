@@ -1,0 +1,1897 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8d802c9a-15a1-4d42-a6d6-8138935e847c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Transistor_MOSFET_AKL:DMP3125L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMP3125L"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/f83868e02d39f9bf35e4979b4738d4a2/DMP3125L.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOT-23 P-MOSFET enchancement mode transistor, 30V, 2.5A, 0.65W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "enchancement mosfet pmosfet p-mosfet pmos p-mos emos emosfet DMP3125L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMP3125L_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMP3125L_1_1"
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LNA + LNA w/ bypass"
+		(exclude_from_sim no)
+		(at 155.575 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e879578-34e5-423c-bea2-a2d8b0dac33e")
+	)
+	(junction
+		(at 126.365 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f756ccc-2da5-40f8-ac54-aa1f480c7a66")
+	)
+	(junction
+		(at 107.315 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91b0fa95-e9f6-4b93-a1f8-895647c75039")
+	)
+	(junction
+		(at 107.315 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dba65294-fa7d-42a6-9730-7c81dfbe79ff")
+	)
+	(junction
+		(at 116.84 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e92cbb06-4980-449f-8f70-9c71dca7d192")
+	)
+	(wire
+		(pts
+			(xy 107.315 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0114556a-82fa-4494-b6df-f91c18ab33c6")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0332a619-d52d-451c-b58a-12b7b3f86fc6")
+	)
+	(wire
+		(pts
+			(xy 219.075 101.6) (xy 233.045 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108b26dc-1bab-4437-b6a7-f9a051a41e23")
+	)
+	(wire
+		(pts
+			(xy 126.365 72.39) (xy 126.365 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1176a8a5-fdc2-4df1-9a3a-af1fab4ad559")
+	)
+	(wire
+		(pts
+			(xy 126.365 52.07) (xy 145.415 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4f9636-6628-45a4-8f61-4fbac3f93fa5")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.695) (xy 191.135 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342b930d-22c4-4390-8631-8f7456f8e17e")
+	)
+	(wire
+		(pts
+			(xy 107.315 72.39) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d287f51-84b6-4e39-9f9e-595c59def5f2")
+	)
+	(wire
+		(pts
+			(xy 139.7 107.315) (xy 191.135 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da64fb4-8039-4f8e-930a-67390d4d7df1")
+	)
+	(wire
+		(pts
+			(xy 139.7 100.965) (xy 156.21 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4205f4eb-f2a5-4b3c-b3ab-bdef4e110a9b")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 126.365 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428da34e-dde6-4743-8bbc-96ee33decfd2")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.165) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd86100-2cdf-4ebd-b67d-338f7b868f07")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62736aa8-26e8-48a2-9f1d-9cec2c08d4e5")
+	)
+	(wire
+		(pts
+			(xy 93.98 72.39) (xy 107.315 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646f8071-094d-4eca-ae27-258f29f9276c")
+	)
+	(wire
+		(pts
+			(xy 107.315 65.405) (xy 107.315 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b78fe7-7097-4247-9045-c848b3def1fa")
+	)
+	(wire
+		(pts
+			(xy 126.365 52.07) (xy 126.365 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695f4a0f-9eed-4e64-8c8d-fdd75aec322b")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 126.365 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edf0f44-72e2-4617-be91-946cb1be340e")
+	)
+	(wire
+		(pts
+			(xy 145.415 52.07) (xy 145.415 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c96d601-2b10-4b55-8a9a-a59652f88800")
+	)
+	(wire
+		(pts
+			(xy 107.315 57.785) (xy 107.315 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972edefd-367c-4602-8e2d-7d40ca719d47")
+	)
+	(wire
+		(pts
+			(xy 126.365 60.96) (xy 126.365 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976454c5-c231-4dec-a417-d3276b4bc613")
+	)
+	(wire
+		(pts
+			(xy 219.075 104.775) (xy 233.045 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d937a4-f902-4176-9f0b-e4f5ad4393cc")
+	)
+	(wire
+		(pts
+			(xy 103.505 107.315) (xy 111.76 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b794cb10-54f8-4cad-aad9-e4c1662c0054")
+	)
+	(wire
+		(pts
+			(xy 65.405 100.33) (xy 78.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bc8c5d-3539-44ec-b08d-a5617af78faa")
+	)
+	(wire
+		(pts
+			(xy 101.6 52.07) (xy 107.315 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74d40fb-3874-4c8c-a2ea-d432ec28889b")
+	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d281aaa6-e869-406f-be16-25c2736a61cf")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fb6c50-64c6-4387-87a8-1656f71982f0")
+	)
+	(wire
+		(pts
+			(xy 145.415 98.425) (xy 156.21 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6738c2a-5cb6-40b6-a45b-379d87419269")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd70ea6b-7b50-4d03-9d51-15cb2b4f70db")
+	)
+	(label "+5v_lna2"
+		(at 133.985 52.07 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "205b55ef-57b0-45d0-9985-961dd61506bb")
+	)
+	(hierarchical_label "RF_{in}"
+		(shape input)
+		(at 65.405 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04829126-3a79-4a63-ac0e-4490f67b3fcc")
+	)
+	(hierarchical_label "CTRL_SW2"
+		(shape input)
+		(at 233.045 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "089ff0de-df6d-4d75-b3d6-d6493d477b8e")
+	)
+	(hierarchical_label "RF_{out}"
+		(shape output)
+		(at 233.045 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e856e84-2345-4485-87b4-1af4ad423389")
+	)
+	(hierarchical_label "~{EN_LNA2}"
+		(shape input)
+		(at 93.98 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a67691-403b-4e70-8d1c-a603e100b801")
+	)
+	(hierarchical_label "CTRL_SW1"
+		(shape input)
+		(at 103.505 107.315 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f817813-3a37-45e3-a609-ea7b45ed3b02")
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 87.63 50.165 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "220d6ba7-16b9-42e0-a663-278adc9f0434")
+		(property "Reference" "#PWR077"
+			(at 87.63 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 87.63 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 87.63 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdad601e-e44f-4770-aee8-7c2a14a19bb1")
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 73.66 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ae07cb2-335f-4fd9-a6c1-14a19dcd6a96")
+		(property "Reference" "#PWR076"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efac1875-7063-42c9-a02d-ff51f959ad0c")
+		)
+		(instances
+			(project ""
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 126.365 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0b3d30-b790-45c3-8487-27b2ea6d49f4")
+		(property "Reference" "R13"
+			(at 130.175 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 130.175 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 124.587 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 126.365 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126.365 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "x"
+			(at 126.365 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b45eef9-d69a-4fe1-854d-08df29345417")
+		)
+		(pin "2"
+			(uuid "165e407a-348d-4eca-bca7-832c15287a23")
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52bc0906-0174-46a1-9fde-4c379ac6c867")
+		(property "Reference" "R55"
+			(at 92.71 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 101.6 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 97.79 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "x"
+			(at 97.79 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e20885f-ad02-4465-91b9-8cdff18dfb16")
+		)
+		(pin "2"
+			(uuid "b8e0aa45-484d-4747-a99d-3ccb9fa4e10b")
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.315 61.595 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80d21ad9-3f04-4a92-8afa-bf2e090d59e5")
+		(property "Reference" "R58"
+			(at 111.125 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.125 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 105.537 61.595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.315 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.315 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "x"
+			(at 107.315 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552680fd-1282-429a-abe1-da691f000155")
+		)
+		(pin "2"
+			(uuid "73ab472b-5d32-481b-bfe1-47a3f15be193")
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Transistor_MOSFET_AKL:DMP3125L")
+		(at 118.11 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b161a1e0-499d-4202-87bb-3d8b39403359")
+		(property "Reference" "Q1"
+			(at 118.11 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP3125L"
+			(at 118.11 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f83868e02d39f9bf35e4979b4738d4a2/DMP3125L.pdf"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-23 P-MOSFET enchancement mode transistor, 30V, 2.5A, 0.65W, Alternate KiCAD Library"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "621-DMP3125L-7"
+			(at 118.11 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "x"
+			(at 118.11 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "041a4598-c0cb-4584-8c53-d51dceaca18b")
+		)
+		(pin "2"
+			(uuid "17691ab2-65b4-436c-94d3-9b62ecbffa73")
+		)
+		(pin "3"
+			(uuid "daebc9b0-a3b7-47a5-8f90-7a028f60c581")
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 126.365 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c09bdca1-ac77-428a-a25e-8901f8219058")
+		(property "Reference" "D14"
+			(at 128.905 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 128.905 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 126.365 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 126.365 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126.365 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "checked" "x"
+			(at 126.365 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3717651-7880-4342-af4c-2233be0d89a5")
+		)
+		(pin "2"
+			(uuid "b4eb50ea-2b6e-411c-a922-fcc84c43de7f")
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 95.885)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "19178f1d-e80d-48cf-a8f4-0dbc2d33c5a8")
+		(property "Sheetname" "LNA GRF2081 2"
+			(at 156.21 95.1734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lna_grf2081.kicad_sch"
+			(at 156.21 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_{in}" input
+			(at 156.21 100.965 180)
+			(uuid "6ca970e6-d4ff-41c9-a0aa-05c602a027ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_{out}" output
+			(at 181.61 99.695 0)
+			(uuid "66238423-fa65-46e0-b50b-e2d693b217c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_5V" input
+			(at 156.21 98.425 180)
+			(uuid "159687ba-4e47-4bf8-a98d-7c130b7703da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 95.25)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "2e93a871-ea61-4a77-9298-4db3d5cfc815")
+		(property "Sheetname" "RF Switch 1"
+			(at 111.76 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_switch_pe4259.kicad_sch"
+			(at 111.76 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RFC" bidirectional
+			(at 111.76 99.06 180)
+			(uuid "c489e4aa-7a74-4b62-a5e6-fca43bc9ad1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF2" bidirectional
+			(at 139.7 107.315 0)
+			(uuid "99d29272-594d-4b04-828a-fd00624b6749")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTRL" bidirectional
+			(at 111.76 107.315 180)
+			(uuid "1a150a89-dc06-472f-a1b3-70a6c9d3a803")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF1" bidirectional
+			(at 139.7 100.965 0)
+			(uuid "47bcb4e5-f11d-49fa-9f53-1b73a28810aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 95.25)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "431c7d57-2b2e-4d43-8a04-d3f51e8b485f")
+		(property "Sheetname" "LNA GRF2081 1"
+			(at 78.74 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lna_grf2081.kicad_sch"
+			(at 78.74 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF_{in}" input
+			(at 78.74 100.33 180)
+			(uuid "1472674e-7627-4e38-a1ca-deec67a4b334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_{out}" output
+			(at 104.14 99.06 0)
+			(uuid "15496b5e-2b0b-41be-998e-67383f0d6396")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_5V" input
+			(at 78.74 97.79 180)
+			(uuid "15fee54d-4eef-4aab-ad78-fced6d7acf46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.135 95.885)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "7ef9992e-4310-4680-89e4-41a62bb731a9")
+		(property "Sheetname" "RF Switch 2"
+			(at 191.135 95.1734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_switch_pe4259.kicad_sch"
+			(at 191.135 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RFC" bidirectional
+			(at 219.075 101.6 0)
+			(uuid "b24c1553-24a5-4a66-886b-70b0d96e7f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF2" bidirectional
+			(at 191.135 107.315 180)
+			(uuid "b21df5a9-3b5f-4552-ba20-77578319ff7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL" bidirectional
+			(at 219.075 104.775 0)
+			(uuid "5289539d-191c-4825-a876-5dfb1d821c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF1" bidirectional
+			(at 191.135 99.695 180)
+			(uuid "050585a7-f76a-41e0-8389-b84424be6094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "basestation-rx-V2"
+				(path "/3ef2acaf-56f1-4d56-9147-d7451c6fecad/25f4d3a6-920f-4da5-b5e2-07c461d56c24"
+					(page "9")
+				)
+			)
+		)
+	)
+)

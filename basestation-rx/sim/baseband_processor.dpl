@@ -1,0 +1,29 @@
+<QucsStudio Schematic 5.8>
+<Properties>
+View=-209.41,-126.278,917.939,637.598,1.58796,24,233
+Grid=10,10,0
+DataSet=*.dat
+DataDisplay=*.sch
+OpenDisplay=1
+showFrame=0
+FrameText0=Titel \n @PATH@@FILE@
+FrameText1=Gezeichnet von:
+FrameText2=Datum: @DATE@
+FrameText3=Revision:
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+<Rect 240 390 360 220 31 #c0c0c0 1 00 1 0 0.0002 0.001 1 -0.0001 0.0005 0.0011 1 -1 0.5 1 -1 -1 -1 "" "" "">
+	<Legend 10 -100 0>
+	<"inp.Vt" "" #ff0000 1 3 0 0 0 1 "">
+	<"inn.Vt" "" #ff00ff 1 3 0 0 0 1 "">
+	<"diff.Vt" "" #00dc00 1 3 0 0 0 1 "">
+</Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
